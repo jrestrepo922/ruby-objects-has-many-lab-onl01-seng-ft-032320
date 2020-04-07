@@ -12,5 +12,8 @@ class Song # a song must have an artist
    @@all 
  end 
  
- 
+ def artist_name
+   
+ end 
 end 
+
