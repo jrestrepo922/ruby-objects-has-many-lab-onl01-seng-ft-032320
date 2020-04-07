@@ -20,7 +20,6 @@ class Song # a song must have an artist
   else 
     nil
   end 
-   binding.pry
  end 
 end 
 
