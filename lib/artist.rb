@@ -24,8 +24,8 @@ class Artist #artist should have many songs
   end 
   
   def self.song_count 
-    count = Song.all.length
-    binding.pry
+    Song.all.length
+    
   end 
 end 
 
