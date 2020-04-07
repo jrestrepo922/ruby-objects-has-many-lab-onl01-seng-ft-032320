@@ -16,6 +16,7 @@ class Song # a song must have an artist
  
  def artist_name
    binding.pry
+   self.artist_name 
  end 
 end 
 
