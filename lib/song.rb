@@ -1,3 +1,5 @@
+require "pry"
+
 class Song # a song must have an artist 
  attr_accessor :artist, :name 
  
@@ -13,7 +15,7 @@ class Song # a song must have an artist
  end 
  
  def artist_name
-   
+   binding.pry
  end 
 end 
 
