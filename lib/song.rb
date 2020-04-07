@@ -15,8 +15,12 @@ class Song # a song must have an artist
  end 
  
  def artist_name
+  if self.artist # if the instance of an artist exist return true and enter the if statement
    self.artist.name
-   #binding.pry
+  else 
+    nil
+  end 
+   binding.pry
  end 
 end 
 
