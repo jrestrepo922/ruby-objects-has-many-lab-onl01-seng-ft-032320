@@ -21,6 +21,10 @@ class Artist #artist should have many songs
     song.artist = self     #setting the instance of the song class setter method artist equals to the instance of the object. This associates both of the objects.
     
   end 
+  
+  def self.song_count 
+    Song.all
+  end 
 end 
 
 
