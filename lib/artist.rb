@@ -6,7 +6,7 @@ class Artist #artist should have many songs
   end 
   
   def songs # return the songs that belong to the instant of this artist
-    Song.self.select { |song| song.artist == self}
+    Song.all.select { |song| song.artist == self} # retuns all the values on the @@all class variable of song and filter base on intance of artist class 
   end 
   #In order to have an artist find all of it's songs, the song class needs to know about all its song instances and a song instance needs to know about the artist class it belongs to.
   
